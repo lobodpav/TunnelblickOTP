@@ -7,7 +7,7 @@ The generated OTP is compatible with Authy and Google Authenticator.
 # Installation instructions
 - `brew install groovy`
 - `brew install oath-toolkit`
-- Copy all the files into your Tunnelblick configuration. For example into: `~/Library/Application Support/Tunnelblick/Configurations/YourVPNConfig.tblk/Contents/Resources/`
+- Copy all the script files from this repository into your Tunnelblick configuration. For example into: `~/Library/Application Support/Tunnelblick/Configurations/YourVPNConfig.tblk/Contents/Resources/`
 - Connect to the VPN
 - First connection will fail. Your credentials will be created in the KeyChain under `Tunnelblick-Auth-YourVPNConfig` entries.
   - Add your user name into the `password` field of the `username` entry
